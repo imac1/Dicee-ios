@@ -11,7 +11,7 @@
 		D0EF1DD6226ED06B001559B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EF1DD5226ED06B001559B8 /* ViewController.swift */; };
 		D0EF1DD9226ED06B001559B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EF1DD7226ED06B001559B8 /* Main.storyboard */; };
 		D0EF1DDE226ED071001559B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EF1DDC226ED071001559B8 /* LaunchScreen.storyboard */; };
-		D0EF1DE6226ED41D001559B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EF1DE5226ED41D001559B8 /* Images.xcassets */; };
+		D0EF1DE6226ED41D001559B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EF1DE5226ED41D001559B8 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +21,7 @@
 		D0EF1DD8226ED06B001559B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0EF1DDD226ED071001559B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0EF1DDF226ED071001559B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0EF1DE5226ED41D001559B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0EF1DE5226ED41D001559B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				D0EF1DD7226ED06B001559B8 /* Main.storyboard */,
 				D0EF1DDC226ED071001559B8 /* LaunchScreen.storyboard */,
 				D0EF1DDF226ED071001559B8 /* Info.plist */,
-				D0EF1DE5226ED41D001559B8 /* Images.xcassets */,
+				D0EF1DE5226ED41D001559B8 /* Assets.xcassets */,
 			);
 			path = Dicee;
 			sourceTree = "<group>";
@@ -122,7 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0EF1DE6226ED41D001559B8 /* Images.xcassets in Resources */,
+				D0EF1DE6226ED41D001559B8 /* Assets.xcassets in Resources */,
 				D0EF1DDE226ED071001559B8 /* LaunchScreen.storyboard in Resources */,
 				D0EF1DD9226ED06B001559B8 /* Main.storyboard in Resources */,
 			);
@@ -281,6 +281,8 @@
 		D0EF1DE3226ED071001559B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6TXPH72C55;
 				INFOPLIST_FILE = Dicee/Info.plist;
@@ -298,6 +300,8 @@
 		D0EF1DE4226ED071001559B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6TXPH72C55;
 				INFOPLIST_FILE = Dicee/Info.plist;
